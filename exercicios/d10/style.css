@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #00F094;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #008150;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    box-shadow: inset 0px -20px 20px 6px rgba(0, 0, 0, 0.185);
+}
+
+nav {
+    padding: 5px;
+    text-align: left;
+}
+
+nav>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 18px;
+    margin-left: 10px;
+}
+
+nav>a:hover {
+    color: #005F3B;
+}
+
+main {
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer {
+    background-color: #005F3B;
+    color: white;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+    padding: 2px;
+}
+
+footer>p {
+    margin: 0px;
+}
+
+h1 {
+    padding: 25px;
+}
+
+h1#titulo-main {
+    font-family: 'idroid', Helvetica, sans-serif;
+    text-indent: 15px;
+    padding: 0px;
+}
+
+h2 {
+    font-family: 'idroid', Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #00C57A, white);
+    text-indent: 10px;
+    margin: 0px 15px;
+}
+
+article#video {
+    background-color: #005F3B;
+    margin: 0px -10px;
+    padding: 15px 30px 15px 30px;
+}
+
+article#learn-more {
+    background-color: #00F094;
+    border-radius: 10px;
+    margin: 10px 15px;
+    box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.589);
+}
+
+article#learn-more>h3 {
+    background-color: #00C57A;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 6px 10px;
+}
+
+p {
+    text-indent: 30px;
+    padding: 10px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+}
+
+ul {
+    list-style-image: url('imagens/checkmark.png');
+    column-count: 2;
+    padding: 0px 30px;
+}
+
+a {
+    text-decoration: underline;
+    color: black;
+}
