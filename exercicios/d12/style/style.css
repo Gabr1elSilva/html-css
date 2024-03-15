@@ -40,25 +40,32 @@ main p {
 
 section.normal {
     background-color: white;
-    height: 94vh;
+    /* height: p; */
+    display: inline-block;
 }
 
 section.imagem {
     color: white;
-    height: 94vh;
 }
 
 section#img01 {
-    background-image: url('../assets/background001.jpg');
+    background: black url('../assets/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
 }
 
 section#img02 {
-    background-image: url('../assets/background002.jpg');
+    background: black url('../assets/background002.jpg') right bottom no-repeat fixed;
+    background-size: cover;
 }
 
 div {
     background-color: rgba(0, 0, 0, 0.541);
-    width: 300px;
+    display: inline-block;
+    transform: translate(0.5%, 10%);
+}
+
+div p {
+    padding: 0;
 }
 
 footer {
