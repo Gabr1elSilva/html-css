@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    background: black url("../assets/espaco.jpg") center center no-repeat fixed;
+    background-size: cover;
+}
+
+div.img {
+    background: rgba(0, 0, 0, 0) url("../assets/astronauta.png") center center no-repeat fixed;
+    height:1000px
+}
